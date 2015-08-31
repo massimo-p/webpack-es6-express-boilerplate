@@ -1,8 +1,7 @@
 let chai = require('chai'),
     sinon = require('sinon'),
-    sinonChai = require("sinon-chai"),
-    _ = require('lodash');
-
+    sinonChai = require("sinon-chai");
+    
 let expect = chai.expect;
 chai.use(sinonChai);
 
