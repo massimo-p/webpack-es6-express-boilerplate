@@ -1,0 +1,63 @@
+{
+    "name": "webpack-es6-express-boilerplate",
+    "author": "Massimo Pacher",
+    "version": "0.1.0",
+    "scripts": {
+        "test": "mocha test/server --compilers js:babel/register"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/massimo-p/webpack-es6-express-boilerplate.git"
+    },
+    "keywords": [
+        "express",
+        "node",
+        "webpack",
+        "es6",
+        "babel"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/massimo-p/webpack-es6-express-boilerplate/issues"
+    },
+    "homepage": "https://github.com/massimo-p/webpack-es6-express-boilerplate",
+    "main": "build/server.js",
+    "dependencies": {
+        "body-parser": "^1.12.4",
+        "cookie-parser": "^1.3.5",
+        "ejs": "^2.3.1",
+        "express": "^4.9.0",
+        "source-map-support": "^0.3.2",
+        "babel-core": "^5.6.15"
+    },
+    "devDependencies": {
+        "babel": "^5.6.14",
+        "babel-loader": "^5.2.2",
+        "chai": "^3.0.0",
+        "deep-merge": "^1.0.0",
+        "eslint": "^0.24.0",
+        "eslint-friendly-formatter": "^1.0.8",
+        "eslint-loader": "^0.14.1",
+        "gulp": "^3.9.0",
+        "gulp-less": "^3.0.3",
+        "gulp-mocha": "^2.1.2",
+        "karma": "^0.13.0",
+        "karma-chai": "^0.1.0",
+        "karma-chai-sinon": "^0.1.5",
+        "karma-mocha": "^0.2.0",
+        "karma-mocha-reporter": "^1.0.2",
+        "karma-phantomjs-launcher": "^0.2.1",
+        "karma-sinon": "^1.0.4",
+        "karma-sourcemap-loader": "^0.3.5",
+        "karma-webpack": "^1.5.1",
+        "mocha": "^2.2.5",
+        "nodemon": "^1.3.7",
+        "phantomjs": "^1.9.18",
+        "sinon": "^1.15.4",
+        "sinon-chai": "^2.8.0",
+        "webpack": "^1.10.0"
+    },
+    "engines": {
+        "node": "0.12"
+    }
+}
