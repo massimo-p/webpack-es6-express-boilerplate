@@ -41,6 +41,7 @@
         "gulp": "^3.9.0",
         "gulp-less": "^3.0.3",
         "gulp-mocha": "^2.1.2",
+        "gulp-util": "^3.0.6",
         "karma": "^0.13.0",
         "karma-chai": "^0.1.0",
         "karma-chai-sinon": "^0.1.5",
